@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url("fonts/Nunito-Bold.ttf");
+}
+
+* {
+    font-family: Nunito, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    background: linear-gradient(90deg, #ffffff 50%, #f8f8fa 50%);
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.free-account-form {
+    padding: 194px 41px 191px 63px;
+    max-width: 452px;
+
+}
+
+.free-account-form__about-form {
+    max-width: 496px;
+    margin-bottom: 67px;
+}
+
+.free-account-form__about-form_title {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 7px;
+    line-height: normal;
+}
+
+.free-account-form__about-form_description {
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+}
+
+.free-account-form__form {
+    font-size: 16px; /*кроме кнопки sign up*/
+}
+
+#form-for-free-account > div:not(:last-child,:nth-last-of-type(2),:nth-last-of-type(3)) {
+    margin-bottom: 20px;
+}
+
+.form-for-free-account__repeat-password {
+    margin-bottom: 30px;
+}
+
+#form-for-free-account p {
+    color: #C6C6C4;
+    line-height: 27px;
+}
+
+#form-for-free-account div:not(:nth-last-of-type(2)) > input {
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    width: 452px;
+    height: 35px;
+    font-size: 20px;
+    color: #323232;
+    line-height: 27px;
+}
+
+input {
+    outline: 0;
+}
+
+#rules-agree-text {
+    color: #636363;
+    line-height: 27px;
+}
+
+#rules-checkbox {
+    margin-bottom: 40px;
+}
+
+.form-for-free-account__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+}
+
+#sign-up-btn {
+    padding: 21px 68px 25px;
+    background: #DD3142;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+#sign-in-btn {
+    color: #636363;
+    line-height: 27px;
+}
+
+.free-space {
+    padding: 254px 0 331px 11px;
+}
+
+.logo {
+    position: absolute;
+    width: 252px;
+    height: 55px;
+    top: 27px;
+    left: calc(50% - 129px);
+}
+.logo img {
+    width: 100%;
+}
+
+#popup {
+    position: fixed;
+    display: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.popup-circle {
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    border: none;
+    background-color: rgb(190, 75, 87);
+    color: #FFFFFF;
+}
+
+.popup-circle h1 {
+    margin-bottom: 30px;
+}
+
+.popup-circle button {
+    padding: 10px 20px;
+    background: #882e2e;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}

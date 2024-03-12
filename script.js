@@ -98,5 +98,6 @@ window.addEventListener('load', () => {
         }
     }
 
+    console.log("done!");
 
 })

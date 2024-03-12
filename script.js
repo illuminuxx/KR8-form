@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-    console.log("Это учебный проект");
+    console.log("Это учебный проект!");
     let userFullName = document.getElementById('fullNameInput');
     userFullName.onkeydown = (event) => {
         let name = parseInt(event.key);
